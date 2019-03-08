@@ -4,4 +4,6 @@
         "url": "https://www.linkedin.com/",
 		"profileurl": "https://www.linkedin.com/in/",
 		"logout": "https://www.linkedin.com/m/logout/"
+		"defaultmessage" : "Please add me to your network",
+		"authorization": "Bearer replace with the accesstoken"
 }
