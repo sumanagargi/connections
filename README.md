@@ -46,4 +46,7 @@ How to run
 	
 	
 REST SAMPLE CALL Implementation is available in the file Rest_Request.js under intergration folder.
-To execute it access_token is required. Make the necessary changes in connections_config.json file under fixtures folder
+
+To execute it access_token is required. 
+
+Make the necessary changes in connections_config.json file under fixtures folder
