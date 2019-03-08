@@ -43,3 +43,7 @@ How to run
 	9) Send_Msg.js for sending messases will be visible in the Cypress UI.
   
 	10) Run the file to send the follow up messages for the configured user list in the fixtures\profilelist.csv
+	
+	
+REST SAMPLE CALL Implementation is available in the file Rest_Request.js under intergration folder.
+To execute it access_token is required. Make the necessary changes in connections_config.json file under fixtures folder
