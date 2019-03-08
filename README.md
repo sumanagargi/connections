@@ -17,34 +17,29 @@ Editing properties file
      a) Change the username and pwd with the valid linkedin userid and password
 
 *This file will have profile details for which invitation or message has to be sent
-	5) fixtures\ProfileList.json	   
+	5) fixtures\profilelist.csv	   
   		
     a) Format
-		 {
-        "profilename": "profile name",
-        "name": "Name",
-        "message": "Please accept my invitation"
-		}
+	   profileid,message
+	   profileid
 		Example:
-			a) Replace profile name with linkedin profile name available in the public linkedin url
+			a) Replace profileid with linkedin profile id available in the public linkedin url
 				Linkedin Public url:  https://in.linkedin.com/in/sumana-gargi-92199612
-			b) Provide the custom message in the message tag
-		 {
-        "profilename": "sumana-gargi-92199612",
-        "name": "Sumana Gargi M",
-        "message": "Please add me to your network"
-		}
+			b) Provide the custom message, if not given default message will be sent
+	
+	sumana-gargi-92199612,Please accept my invitation
+        sumana-gargi-92199612
 		
-	*Can give multiple profiles in the specified json format
+	*Can give multiple profiles in the specified format
 
 How to run	
 
 	6) Start the cypress
   
-	7) SendInvitation.js for sending invitation will be visible in the Cypress UI.
+	7) Send_Inv.js for sending invitation will be visible in the Cypress UI.
   
-	8) Run the file to send the invitation for the configured user list in fixtures\ProfileList.json  
+	8) Run the file to send the invitation for the configured user list in fixtures\profilelist.csv  
   
-	9) SendMessages.js for sending messases will be visible in the Cypress UI.
+	9) Send_Msg.js for sending messases will be visible in the Cypress UI.
   
-	10) Run the file to send the follow up messages for the configured user list in the fixtures\ProfileList.json
+	10) Run the file to send the follow up messages for the configured user list in the fixtures\profilelist.csv
