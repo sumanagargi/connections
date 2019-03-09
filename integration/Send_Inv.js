@@ -45,12 +45,14 @@ it('Visit Linkedin website',function(){
 					cy.get('#custom-message').type(data[1])
 				 else	
 					 cy.get('#custom-message').type(conn.defaultmessage)
+				 
+				 		
+				//Click on done button
+				cy.get('.send-invite__actions > .button-primary-large').click()
 
 				})
 	
-					
-				//Click on done button
-				cy.get('.send-invite__actions > .button-primary-large').click()
+			
 				
 				
 
